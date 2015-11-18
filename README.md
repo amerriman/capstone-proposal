@@ -41,7 +41,7 @@
 - Users could search for item cost using Amazon API if I can figure out how to use that...
 - Users would be able to select items by room and be given a general cost of replacement (ie - I have a couch and a dining table and two armchairs and a television - total replacement cost could be in $x-$y range)
 
-OR
+
 
 #Congress Watcher
 
@@ -83,3 +83,48 @@ OR
 ## Stretch Goals
 
 - Create a data map of some type
+
+
+# Write Smart
+
+## Summary
+
+- An app that would help teachers and students evaluate the sentiment of their own writing, or another author's writing.
+
+
+## technologies
+
+- MEAN Stack
+ - Express
+ - Angular
+ - Unsure about database at this point - will need to frame out if it makes more sense to use MongoDB or PSQL
+ - Node.js
+- Gulp
+- Mocha/Chai testing
+- Bootstrap
+- nvd3
+
+### APIs
+
+- Watson Sentiment analysis
+
+
+## MVP
+
+- Users can test the application without having to login
+- Teachers can create accounts that will be linked to their students, and vice versa
+- Users will input text and the application will return a sentiment analysis with keywords that are rated with 'positive' or 'negative' sentiment.
+- text will be stored, along with keywords, in user accounts
+- Users can see data related to their text - presented as an infographic, with charts, graphs, etc.
+
+
+## Additional features
+
+- User-friendly and responsive UI
+
+
+## Stretch Goals
+
+- Users could print a PDF of their items
+- Word cloud generator with keywords
+
